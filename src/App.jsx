@@ -21,6 +21,7 @@ function App() {
 
   const convertTemperature = () => {
     if (temperature === '' || isNaN(temperature)) {
+      alert('Please fill the form')
       setConvertedTemp('');
       return;
     }
